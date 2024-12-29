@@ -42,4 +42,5 @@ def concat(list_of_str):
     return(reduce(lambda x,y: x+y, list_of_str))
 
 print(concat(['one', 'two', 'three']))
+
     
